@@ -2,7 +2,7 @@
 
 Um jogo simples e funcional de Jokenpo (pedra, papel e tesoura) desenvolvido em Flutter, criado como estudo para explorar os fundamentos do framework. Este aplicativo simula o clássico jogo, onde o jogador escolhe entre pedra, papel ou tesoura e compete contra uma escolha aleatória do computador. O projeto tem como foco o aprendizado do uso do GestureDetector para capturar interações do usuário e de widgets de imagem para personalização visual, destacando-se pela simplicidade e clareza na implementação.
 
-<h2>✨Funcionalidades</h2>
+<h2>✨ Funcionalidades</h2>
 
 - Escolha entre pedra, papel ou tesoura.
 - Feedback visual com telas indicando vitória, derrota ou empate.
@@ -11,24 +11,24 @@ Um jogo simples e funcional de Jokenpo (pedra, papel e tesoura) desenvolvido em 
 <h2>🚀 Tecnologias Utilizadas </h2>
 
 - [Flutter](https://docs.flutter.dev/): framework principal para o desenvolvimento do app.
-- [Dart](https://dart.dev/guides): linguagem de programação usada no projeto.
-- Widgets do Flutter: como [GestureDetector](https://api.flutter.dev/flutter/widgets/GestureDetector-class.html) e [Image](https://api.flutter.dev/flutter/widgets/Image-class.html) para imagens personalizadas.
+- [Dart](https://dart.dev/guides): linguagem de programação usada pelo Flutter.
+- [Widgets do Flutter](https://docs.flutter.dev/ui/widgets): como [GestureDetector](https://api.flutter.dev/flutter/widgets/GestureDetector-class.html) e [Image](https://api.flutter.dev/flutter/widgets/Image-class.html) para imagens personalizadas.
 
 <h2>📷 Demonstrações </h2>
 
-- Tela Inicial:
+- **Tela Inicial:**
   
 ![](images/readme/screenshot-inicial.png)
 
-- Tela de Vitória:
+- **Tela de Vitória:**
   
 ![](images/readme/screenshot-vitoria.png)
 
-- Tela de Empate:
+- **Tela de Empate:**
   
 ![](images/readme/screenshot-empate.png)
 
-- Tela de Derrota:
+- **Tela de Derrota:**
   
 ![](images/readme/screenshot-derrota.png)
 
