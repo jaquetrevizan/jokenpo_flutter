@@ -1,71 +1,83 @@
-<h1 align="center" style="font-weight: bold;">Jogo Jokenpo em Flutter</h1>
+<h1 align="center">Jokenpo Flutter</h1>
+<p align="center">Aplicativo desenvolvido em Flutter para praticar os fundamentos do framework através do clássico jogo Pedra, Papel e Tesoura.</p>
 
-Um jogo simples e funcional de Jokenpo (pedra, papel e tesoura) desenvolvido em Flutter, criado como estudo para explorar os fundamentos do framework. Este aplicativo simula o clássico jogo, onde o jogador escolhe entre pedra, papel ou tesoura e compete contra uma escolha aleatória do computador. O projeto tem como foco o aprendizado do uso do GestureDetector para capturar interações do usuário e de widgets de imagem para personalização visual, destacando-se pela simplicidade e clareza na implementação.
+---
 
-<h2>✨ Funcionalidades</h2>
+<p align="center">
+  <img src="https://img.shields.io/badge/Flutter-stable-blue?logo=flutter" alt="Flutter">
+  <img src="https://img.shields.io/badge/Dart-stable-blue?logo=dart" alt="Dart">
+</p>
 
-- Escolha entre pedra, papel ou tesoura.
-- Feedback visual com telas indicando vitória, derrota ou empate.
-- Animações e interações simples usando GestureDetector.
+---
 
-<h2>🚀 Tecnologias Utilizadas </h2>
-
-- [Flutter](https://docs.flutter.dev/): framework principal para o desenvolvimento do app.
-- [Dart](https://dart.dev/guides): linguagem de programação usada pelo Flutter.
-- [Widgets do Flutter](https://docs.flutter.dev/ui/widgets): como [GestureDetector](https://api.flutter.dev/flutter/widgets/GestureDetector-class.html) e [Image](https://api.flutter.dev/flutter/widgets/Image-class.html) para imagens personalizadas.
-
-<h2>📷 Demonstrações </h2>
-
-- **Tela Inicial:**
-  
-![](images/readme/screenshot-inicial.png)
-
-- **Tela de Vitória:**
-  
-![](images/readme/screenshot-vitoria.png)
-
-- **Tela de Empate:**
-  
-![](images/readme/screenshot-empate.png)
-
-- **Tela de Derrota:**
-  
-![](images/readme/screenshot-derrota.png)
-
-<h2>📦 Instalação e Execução</h2>
-
-Para rodar este projeto localmente, siga os passos:  
-
-1. Clone este repositório:  
-   ```bash  
-   git clone https://github.com/seu-usuario/jokenpo_flutter.git  
-   ```
-   
-2. Acesse o diretório do projeto:  
-   ```bash  
-   cd jokenpo_flutter  
-   ```
-   
-3. Instale as dependências:  
-   ```bash  
-   flutter pub get  
-   ```
-   
-4. Execute o app:  
-   ```bash  
-   flutter run  
-   ```
-
-<h2>🎯 Objetivo do Estudo</h2>
+## Objetivo
 
 Este projeto foi desenvolvido com o foco em:
 
-- Entender e aplicar o GestureDetector para capturar interações de toque do usuário.
-- Manipular e exibir imagens usando widgets nativos do Flutter.
-- Aprimorar habilidades básicas em Flutter através de um projeto prático.
+- Exercitar conceitos básicos do Flutter (widgets, estado, assets e navegação simples).
+- Praticar lógica de jogo com decisões condicionais.
+- Criar uma interface simples e responsiva para interação por toque.
 
-<h2>✉️ Dúvidas</h2>
+---
 
-Se você tiver alguma dúvida sobre este repositório, envie-a para trevizan.jaqueline@gmail.com.
+## Funcionalidades
+
+- Escolha do jogador: **Pedra**, **Papel** ou **Tesoura** (toque nas imagens).
+- Jogada do app gerada **aleatoriamente**.
+- Cálculo e exibição do **resultado** da rodada (vitória, derrota ou empate).
+- Troca dinâmica da imagem da jogada do app.
+- Mensagens de feedback: "Parabéns, você ganhou :)", "Que pena, você perdeu :(" e "Empatamos ;)".
+
+---
+
+## Tecnologias Utilizadas
+
+- [Flutter](https://docs.flutter.dev/): framework principal para desenvolvimento multiplataforma.
+- [Dart](https://dart.dev/guides): linguagem de programação usada pelo Flutter.
+- **Material Design**: componentes visuais nativos.
+- **Assets locais (imagens)**: `images/padrao.png`, `images/pedra.png`, `images/papel.png`, `images/tesoura.png` (declarados no `pubspec.yaml`).
+- **`dart:math` (`Random`)**: para sortear a jogada do app.
+- **`GestureDetector`**: para capturar o toque nas opções.
+
+---
+
+## Demonstração
+
+<p align="center">
+  <img src="/images/readme/screenshot-inicial.png" alt="Tela inicial" width="320" />
+</p>
+
+<p align="center">
+  <img src="images/readme/screenshot-vitoria.png" alt="Exemplo de vitória" width="320" />
+  <img src="images/readme/screenshot-empate.png" alt="Exemplo de empate" width="320" />
+  <img src="images/readme/screenshot-derrota.png" alt="Exemplo de derrota" width="320" />
+</p>
+
+---
+
+## Instalação e Execução
+
+Para rodar este projeto localmente, siga os passos:
+
+```bash
+# Clone o repositório
+git clone https://github.com/jaquetrevizan/jokenpo_flutter.git
+
+# Acesse o diretório do projeto
+cd jokenpo_flutter
+
+# Instale as dependências
+flutter pub get
+
+# Execute o app (Android, iOS, Web ou Desktop)
+flutter run
+```
+---
+
+## Dúvidas & Sugestões
+
+- Se tiver alguma ideia para melhorar este projeto ou encontrar algum problema, fique à vontade para abrir uma issue aqui no repositório.
+- Para dúvidas mais diretas, você também pode me escrever em: trevizan.jaqueline@gmail.com.
+
 
 
